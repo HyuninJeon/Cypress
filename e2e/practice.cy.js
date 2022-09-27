@@ -1,5 +1,9 @@
 describe('empty spec', () => {
-  it('passes', () => {
+  it('click news', () => {
     cy.visit('https://naver.com')
+      .get('nave_item')
+      .click();
+
+    
   })
 })
