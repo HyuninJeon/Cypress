@@ -20,5 +20,12 @@ cypress를 공부할 프로젝트를 하나 준비한 다음 cypress 설치 후 
   + 웹사이트 방문
   > 특정 웹사이트에 대해 테스트를 작성하려면 기본적으로 해당 웹을 방문해야 한다. cypress에서는 cy.visit()을 사용한다. 
   ```
-  
+  const { eq } = require("loadsh")
+
+  describe('My first Test', () => {
+    it('visit', () => {
+      cy.visit('https://naver.com') //페이지 방문
+    })
+  })
   ```
+  
