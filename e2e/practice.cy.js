@@ -12,6 +12,5 @@ describe('empty spec', () => {
       .type(content)
       .get('button[id=search_btn]')
       .click()
-
   })
 })
